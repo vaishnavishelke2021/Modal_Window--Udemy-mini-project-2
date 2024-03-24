@@ -20,3 +20,12 @@ function closeModal(){
     modal.classList.add('hidden');
     overlay.classList.add('hidden');
 }
+
+// handling key event
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+        if(!modal.classList.contains('hidden')){
+            closeModal();
+        }
+    };
+});
