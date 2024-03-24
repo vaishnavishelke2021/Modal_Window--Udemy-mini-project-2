@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modal Window</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wraapper">
+      <div class="container">
+        <div class="btns">
+          <button>Show Modal 1</button>
+          <button>Show Modal 2</button>
+          <button>Show Modal 3</button>
+        </div>
+
+        <div class="modal hidden">
+          <h1>I'm Modal Window</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur aderror non. Enim alias eos
+            optio perferendis harum quaerat aut minus earum suscipit id? Lorem
+            ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae
+            libero deleniti iste laborum accusamus recusandae praesentium,
+            repellat quasi officia perspiciatis commodi amet quia magnam. Quas
+            vitae provident id quod dolorem?
+          </p>
+
+          <svg id="close"
+            xmlns="http://www.w3.org/2000/svg"
+            width="30"
+            height="30"
+            fill="currentColor"
+            class="bi bi-x"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"
+            />
+          </svg>
+        </div>
+      </div>
+
+      <div class="overlay hidden">
+
+      </div>
+    </div>
+
+    <!-- ------------JS----------- -->
+    <script src="app.js"></script>
+  </body>
+</html>
